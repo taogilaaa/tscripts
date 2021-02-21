@@ -1,0 +1,70 @@
+// defaults have been commented out
+// https://www.typescriptlang.org/docs/handbook/compiler-options.html
+
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "esnext",
+    "module": "esnext",
+    // "lib": [],
+    "allowJs": true,
+    // "checkJs": false,
+    // "jsx": "preserve",
+    // "declaration": false,
+    // "declarationMap": false,
+    // "sourceMap": true,
+    // "outFile": "./",
+    "outDir": "lib",
+    // "rootDir": "./",
+    // "composite": true,
+    "removeComments": true,
+    "noEmit": true,
+    "importHelpers": true,
+    // "downlevelIteration": false,
+    "isolatedModules": true,
+    "pretty": true,
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+    // "noImplicitAny": false,
+    "strictNullChecks": true,
+    // "strictFunctionTypes": false,
+    // "strictPropertyInitialization": false,
+    "noImplicitThis": true,
+    // "alwaysStrict": false,
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    // "allowUnreachableCode": false,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    // "baseUrl": "./",
+    // "paths": {},
+    // "rootDirs": [],
+    // "typeRoots": [],
+    // "types": [],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    // "preserveSymlinks": false,
+    "resolveJsonModule": true
+
+    /* Source Map Options */
+    // "sourceRoot": "./",
+    // "mapRoot": "./",
+    // "inlineSourceMap": false,
+    // "inlineSources": false,
+
+    /* Experimental Options */
+    // "experimentalDecorators": false,
+    // "emitDecoratorMetadata": false,
+
+    /* Advanced Options */
+    // "declarationDir": "lib"
+  }
+}
