@@ -1,0 +1,18 @@
+{
+  "name": "tscripts",
+  "version": "0.1.0",
+  "description": "Centralized JS/TS toolkit.",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@taogilaaa/prettier-config": "^1.0.0",
+    "prettier": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taogilaaa/tscripts.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
