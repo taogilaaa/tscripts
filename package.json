@@ -1,0 +1,18 @@
+{
+  "name": "tscripts",
+  "license": "MIT",
+  "private": true,
+  "repository": "github:taogilaaa/tscripts",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "alpha": "lerna version --conventional-commits --conventional-prerelease",
+    "release": "lerna version --conventional-commits",
+    "graduate": "lerna version --conventional-commits --conventional-graduate"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

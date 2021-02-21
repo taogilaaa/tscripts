@@ -1,0 +1,17 @@
+{
+  "name": "@taogilaaa/prettier-config",
+  "version": "0.1.0",
+  "description": "base Prettier config for tscripts",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "prettier": "2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taogilaaa/tscripts.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
