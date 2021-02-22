@@ -1,13 +1,13 @@
 {
   "name": "tscripts",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Centralized JS/TS toolkit.",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@taogilaaa/babel-config": "^0.1.0",
+    "@taogilaaa/babel-config": "^1.0.0",
     "@taogilaaa/prettier-config": "^1.0.0",
-    "@taogilaaa/typescript-config": "^0.1.0",
+    "@taogilaaa/typescript-config": "^1.0.0",
     "prettier": "^2.2.1",
     "typescript": "^4.1.5"
   },

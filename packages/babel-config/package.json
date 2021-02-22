@@ -1,6 +1,6 @@
 {
   "name": "@taogilaaa/babel-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Base babel config",
   "license": "MIT",
   "main": "index.js",
