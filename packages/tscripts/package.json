@@ -1,6 +1,6 @@
 {
   "name": "tscripts",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Centralized JS/TS toolkit.",
   "main": "index.js",
   "license": "MIT",
@@ -17,5 +17,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "a9c9656d55f0bd0b59bf6e01990c76bd90849fd2"
 }
