@@ -1,0 +1,22 @@
+{
+  "name": "@taogilaaa/typescript-config",
+  "version": "0.1.0",
+  "description": "Base Typescript config used by tscripts",
+  "license": "MIT",
+  "files": [
+    "tsconfig.*.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taogilaaa/tscripts.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "typescript": ">=4 <5"
+  },
+  "dependencies": {
+    "typescript": "^4.1.5"
+  }
+}
