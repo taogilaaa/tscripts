@@ -4,7 +4,7 @@ module.exports = {
   extends: [
     '@taogilaaa/eslint-config-base',
     'xo-typescript',
-    'prettier/@typescript-eslint',
+    'prettier',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
