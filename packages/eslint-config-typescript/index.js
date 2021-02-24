@@ -18,7 +18,16 @@ module.exports = {
 
     '@typescript-eslint/promise-function-async': 0,
     '@typescript-eslint/explicit-function-return-type': 0,
-    '@typescript-eslint/camelcase': ['error', { properties: 'never' }],
+
+    /*
+      Removed and commented for further reads
+
+      https://github.com/xojs/eslint-config-xo-typescript/blob/main/index.js#L204-L276
+      https://github.com/typescript-eslint/typescript-eslint/releases/tag/v3.0.0
+    */
+    // '@typescript-eslint/camelcase': ['error', { properties: 'never' }],
+
+
     '@typescript-eslint/no-unused-vars': [
       'error',
       {
