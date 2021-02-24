@@ -4,19 +4,25 @@
   "description": "Centralized JS/TS toolkit.",
   "main": "index.js",
   "license": "MIT",
-  "dependencies": {
-    "@taogilaaa/babel-config": "^1.0.0",
-    "@taogilaaa/prettier-config": "^1.0.0",
-    "@taogilaaa/typescript-config": "^1.0.0",
-    "prettier": "^2.2.1",
-    "typescript": "^4.1.5"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taogilaaa/tscripts.git"
+    "url": "git+https://github.com/taogilaaa/tscripts.git",
+    "directory": "packages/tscripts"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "a9c9656d55f0bd0b59bf6e01990c76bd90849fd2"
+  "engines": {
+    "node": ">=10.12.0"
+  },
+  "dependencies": {
+    "@taogilaaa/babel-config": "^1.0.0",
+    "@taogilaaa/eslint-config-base": "^0.1.0",
+    "@taogilaaa/eslint-config-typescript": "^0.1.0",
+    "@taogilaaa/prettier-config": "^1.0.0",
+    "@taogilaaa/typescript-config": "^1.0.0",
+    "eslint": "^7.20.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.5"
+  }
 }
