@@ -4,6 +4,11 @@
   "description": "Base babel config",
   "license": "MIT",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taogilaaa/tscripts.git",
+    "directory": "packages/babel-config"
+  },
   "publishConfig": {
     "access": "public"
   },
