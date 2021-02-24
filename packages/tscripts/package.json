@@ -1,6 +1,6 @@
 {
   "name": "tscripts",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Centralized JS/TS toolkit.",
   "main": "index.js",
   "license": "MIT",
@@ -18,7 +18,7 @@
   "dependencies": {
     "@taogilaaa/babel-config": "^1.0.1",
     "@taogilaaa/eslint-config-base": "^0.2.0",
-    "@taogilaaa/eslint-config-typescript": "^0.2.1",
+    "@taogilaaa/eslint-config-typescript": "^0.2.2",
     "@taogilaaa/prettier-config": "^1.0.1",
     "@taogilaaa/typescript-config": "^1.0.1",
     "eslint": "^7.20.0",
