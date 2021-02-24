@@ -33,3 +33,9 @@ Add a root .prettierrc.js
 module.exports = require('tscripts/config/prettier.config.js');
 ```
 
+Add a root .eslintrc.js:
+
+```js
+module.exports = require('tscripts/config/eslint.config.js');
+```
+
