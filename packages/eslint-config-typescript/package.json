@@ -1,6 +1,6 @@
 {
   "name": "@taogilaaa/eslint-config-typescript",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ESLint Typescript config",
   "license": "MIT",
   "main": "index.js",
@@ -20,7 +20,7 @@
     "directory": "packages/eslint-config-typescript"
   },
   "dependencies": {
-    "@taogilaaa/eslint-config-base": "^0.1.0",
+    "@taogilaaa/eslint-config-base": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^4.15.2",
     "@typescript-eslint/parser": "^4.15.2",
     "eslint-config-prettier": "^8.0.0",
