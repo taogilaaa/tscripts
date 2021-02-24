@@ -1,0 +1,25 @@
+{
+  "name": "@taogilaaa/eslint-config-base",
+  "version": "0.1.0",
+  "description": "Base ESLint config",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "engines": {
+    "node": ">=10.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taogilaaa/tscripts.git",
+    "directory": "packages/eslint-config-base"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-config-xo-space": "^0.27.0"
+  }
+}
