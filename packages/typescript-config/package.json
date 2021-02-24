@@ -8,7 +8,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taogilaaa/tscripts.git"
+    "url": "git+https://github.com/taogilaaa/tscripts.git",
+    "directory": "packages/typescript-config"
   },
   "publishConfig": {
     "access": "public"
