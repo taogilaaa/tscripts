@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false
+  },
+  "extends": "tscripts/config/tsconfig.json",
+  "include": ["src"]
+}

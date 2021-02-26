@@ -1,0 +1,41 @@
+{
+  "name": "tstart",
+  "version": "0.3.0",
+  "description": "Javascript project initializer",
+  "bin": {
+    "tstart": "./bin/tstart.js"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "rimraf dist && babel src --ignore \"_*\" --out-dir dist --extensions .ts",
+    "build-watch": "babel src --watch --ignore \"_*\" --out-dir dist --extensions .ts",
+    "test-lint": "eslint 'src/**/*.{js,ts}'",
+    "test-src": "jest --passWithNoTests --verbose",
+    "typecheck": "tsc",
+    "test": "npm run test-lint && npm run typecheck && npm run test-src"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taogilaaa/tscripts.git",
+    "directory": "packages/tstart"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "commander": "^7.1.0",
+    "cross-spawn": "^7.0.3",
+    "shelljs": "^0.8.4",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.2",
+    "@types/jest": "^26.0.20",
+    "@types/shelljs": "^0.8.8",
+    "jest": "^26.6.3",
+    "rimraf": "^3.0.2",
+    "tscripts": "^1.1.2"
+  }
+}
