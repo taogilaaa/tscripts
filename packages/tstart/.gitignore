@@ -1,0 +1,5 @@
+_*
+!__tests__
+/lib
+/dist
+.yarn
