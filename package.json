@@ -7,13 +7,12 @@
     "packages/*"
   ],
   "scripts": {
-    "bootstrap": "lerna bootstrap",
     "alpha": "lerna version --conventional-commits --conventional-prerelease",
     "release": "lerna version --conventional-commits",
     "graduate": "lerna version --conventional-commits --conventional-graduate",
     "publish": "lerna publish --conventional-commits"
   },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^7.2.0"
   }
 }
