@@ -7,7 +7,7 @@ Centralized pluggable config for your JS/TS library. This library bundles all th
 ## Usage
 
 ```sh
-yarn add --dev tscripts
+pnpm i -D tscripts
 ```
 
 ### Editor support steps

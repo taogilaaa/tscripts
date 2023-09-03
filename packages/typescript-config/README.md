@@ -12,6 +12,12 @@ Using npm:
 npm i -D @taogilaaa/typescript-config
 ```
 
+Using pnpm:
+
+```sh
+pnpm i -D @taogilaaa/typescript-config
+```
+
 Using yarn:
 
 ```sh

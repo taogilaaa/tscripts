@@ -8,16 +8,23 @@ tstart works on macOS, Windows, and Linux.
 
 ## Usage
 
-Using npx:
+Using npx / pnpm exec:
 
 ```bash
-npx tstart init my-app
+npx tstart init my-app # Or pnpm exec tstart init my-app
 ```
 
 Using npm / yarn:
 
 ```bash
 npm i -g tstart # Or yarn global add tstart
+tstart init my-app
+```
+
+Using pnpm:
+
+```bash
+pnpm i -g tstart
 tstart init my-app
 ```
 
@@ -32,11 +39,11 @@ tstart --help
 To locally test your changes
 
 ```sh
-yarn build && npm pack
+pnpm build && pnpm pack
 ```
 
 this will generate a `.tgz` based on `name` and `version` inside `package.json`, then simply run
 
 ```sh
-npm i -g NAME-VERSION.tgz
+pnpm i -g NAME-VERSION.tgz
 ```

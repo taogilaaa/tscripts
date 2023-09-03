@@ -5,7 +5,7 @@ Base Prettier config used in tscripts.
 ## Installation
 
 ```sh
-yarn add --dev @taogilaaa/prettier-config
+pnpm i -D @taogilaaa/prettier-config
 ```
 
 ## Usage

@@ -7,7 +7,7 @@ A monorepo of configs for doing JS development
 [tscripts](./packages/tscripts) is a package that combines shared configuration and dependencies for building, linting, testing, formatting, and releasing libraries for Node and the browser. It is opinionated, but allows configuration to avoid lock-in. You can also pick and choose which scripts you use. It is inspired by other tooling bundles like [react-scripts](https://www.npmjs.com/package/react-scripts) and [@spotify/web-scripts](https://www.npmjs.com/package/@spotify/web-scripts).
 
 ```bash
-yarn add --dev tscripts
+pnpm i -D tscripts
 ```
 
 It is intended to be used within a project as a series of npm scripts.
@@ -42,8 +42,11 @@ To quickly get started with a new `tscripts` library, you can use npx or install
 # Run using npx
 npx tstart init my-awesome-project
 
+# Run using pnpm exec
+pnpm exec tstart init my-awesome-project
+
 # Install and run
-yarn global add tstart
+pnpm i -g tstart
 tstart init my-awesome-project
 ```
 
@@ -62,7 +65,7 @@ Merge / Pull requests are welcome. For major changes, please open an issue first
 Make sure to run
 
 ```bash
-yarn bootstrap
+pnpm install
 lerna run test --stream
 ```
 
@@ -89,7 +92,7 @@ To do a release and tag, make sure your role is `Maintainer` and is allowed to p
 run
 
 ```bash
-yarn release
+pnpm release
 ```
 
 and finish the command line prompt, `lerna` will automatically find changes for release, bump the version inside package's `package.json`, generate appropriate `CHANGELOG` using conventional-commit, then tag every package according to semantic version, and lastly commit and push the changes to origin remote.
