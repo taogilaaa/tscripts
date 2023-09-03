@@ -5,7 +5,7 @@ Base Babel config.
 ## Installation
 
 ```sh
-yarn add --dev @taogilaaa/babel-config
+pnpm i -D @taogilaaa/babel-config
 ```
 
 ## Usage

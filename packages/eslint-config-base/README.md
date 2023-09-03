@@ -5,7 +5,7 @@ Base ESLint config, under the hood we are extending and overriding [xo](https://
 ## Installation
 
 ```sh
-yarn add --dev @taogilaaa/eslint-config-base eslint
+pnpm i -D @taogilaaa/eslint-config-base eslint
 ```
 
 ## Usage
