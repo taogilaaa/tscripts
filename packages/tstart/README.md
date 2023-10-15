@@ -45,5 +45,5 @@ pnpm build && pnpm pack
 this will generate a `.tgz` based on `name` and `version` inside `package.json`, then simply run
 
 ```sh
-pnpm i -g NAME-VERSION.tgz
+pnpm add -g ./PATH_TO_FILE/NAME-VERSION.tgz
 ```
