@@ -8,10 +8,10 @@
     "access": "public"
   },
   "peerDependencies": {
-    "eslint": ">=7"
+    "eslint": ">=8"
   },
   "engines": {
-    "node": ">=10.12.0"
+    "node": ">=16"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
     "directory": "packages/eslint-config-base"
   },
   "dependencies": {
-    "eslint-config-prettier": "^8.0.0",
-    "eslint-config-xo-space": "^0.27.0"
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-xo-space": "^0.34.0"
   }
 }
